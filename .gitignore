@@ -4,4 +4,5 @@
 .classpath
 .DS_Store
 /target/
+*.iml
 /src/main/resources/users.csv
