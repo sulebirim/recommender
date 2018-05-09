@@ -1,0 +1,7 @@
+/.idea/
+.settings/
+.project
+.classpath
+.DS_Store
+/target/
+/src/main/resources/users.csv

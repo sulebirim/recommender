@@ -1,0 +1,14 @@
+application:
+   indico:
+      key: d93a3ddfda516d9e8427e6a3530f6ad2
+   elasticsearch:
+      host: localhost
+      port: 9300
+      cluster-name: elasticsearch
+      index: receipes
+      document-type: user
+      receipe-mapping: receipe-mapping 
+      number-of-replicas: 1
+      number-of-shards: 5
+      cluster-sniff: false
+   data-file: /home/niko_strongioglou/Desktop/code/hackathon/recommender/src/main/resources/users.csv
